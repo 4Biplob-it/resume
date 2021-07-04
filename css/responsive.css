@@ -1,0 +1,65 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+
+    .template-banner{
+        background-color: #f9f9f9;
+    }
+    .banner-content {
+        margin-top: 50px !important;
+    }
+    .banner-content .my-name{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .banner-content .designation{
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+    }
+    .banner-content a{
+        margin: 0 !important;
+        padding: 10px 20px !important;
+        font-size: 18px !important;
+    }
+    .title{
+        font-size: 25px !important;
+        text-align: center;
+    }
+
+    .template-resume{
+        margin-left: 30px;
+    }
+
+    .single-work{
+        margin-bottom: 10px;
+    }
+    .single-price{
+        margin-bottom: 10px;
+    }
+    .portfolio-menu li {
+        display: block;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
